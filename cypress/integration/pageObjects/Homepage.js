@@ -1,7 +1,7 @@
-const topOffers = 'div.CXW8mj >img[alt="Apple iPads (From ₹25,200)"]';
+const topOffers = 'div.CXW8mj >img';
 class Homepage {
     static topOffers() {
-        cy.get(topOffers).click();
+        cy.get(topOffers).first().click();
     }
     static visitSite() {
         cy.visit("/");

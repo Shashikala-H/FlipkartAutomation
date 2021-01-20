@@ -7,6 +7,3 @@ Given('I am in facebook page', () => {
 When('I click on Top Offers', () => {
     homepage.topOffers();
 });
-// Then('I should be in able to see all top offers', ()=>{
-
-// });

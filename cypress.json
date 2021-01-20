@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://www.flipkart.com/",
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md"
+  ],
+  "viewportHeight": 800,
+  "viewportWidth": 1200,
+  "testFiles": "**/*.feature",
+  "chromeWebSecurity": false,
+  "projectId": "6ea6cc"
+}
